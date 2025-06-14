@@ -9,44 +9,47 @@ importers:
   .:
     dependencies:
       erp-theme:
-        specifier: ./packages/erp-theme-0.1.0.tgz
+        specifier: file:packages/erp-theme-0.1.0.tgz
         version: file:packages/erp-theme-0.1.0.tgz(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(next@15.3.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.10)
       next:
         specifier: 15.3.3
         version: 15.3.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react:
-        specifier: ^19.0.0
+        specifier: ^19.1.0
         version: 19.1.0
       react-dom:
-        specifier: ^19.0.0
+        specifier: ^19.1.0
         version: 19.1.0(react@19.1.0)
     devDependencies:
       '@eslint/eslintrc':
-        specifier: ^3
+        specifier: ^3.3.1
         version: 3.3.1
       '@tailwindcss/postcss':
-        specifier: ^4
+        specifier: ^4.1.10
         version: 4.1.10
       '@types/node':
-        specifier: ^20
+        specifier: ^20.19.0
         version: 20.19.0
       '@types/react':
-        specifier: ^19
+        specifier: ^19.1.8
         version: 19.1.8
       '@types/react-dom':
-        specifier: ^19
+        specifier: ^19.1.6
         version: 19.1.6(@types/react@19.1.8)
       eslint:
-        specifier: ^9
+        specifier: ^9.29.0
         version: 9.29.0(jiti@2.4.2)
       eslint-config-next:
         specifier: 15.3.3
         version: 15.3.3(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)
       tailwindcss:
-        specifier: ^4
+        specifier: ^4.1.10
         version: 4.1.10
+      tailwindcss-animate:
+        specifier: ^1.0.7
+        version: 1.0.7(tailwindcss@4.1.10)
       typescript:
-        specifier: ^5
+        specifier: ^5.8.3
         version: 5.8.3
 
 packages:
@@ -1481,7 +1484,7 @@ packages:
     engines: {node: '>=10.13.0'}
 
   erp-theme@file:packages/erp-theme-0.1.0.tgz:
-    resolution: {integrity: sha512-lY492nDDrQCZtMoY+2C2V3aZ/27tfRqWvO+J6b4DoVtXtz8TOiuCDeBoGw2h7DC+YuTMb/Hw74OBLeQumWM9rw==, tarball: file:packages/erp-theme-0.1.0.tgz}
+    resolution: {integrity: sha512-cXW9FWnyF9pOzd6goXvjQ4syTc58TNxdLpN4WO0yt5KvYqIUdrtbK8pnmLJvJvEpdgmTFBUzs8HXDz4s0JmWIw==, tarball: file:packages/erp-theme-0.1.0.tgz}
     version: 0.1.0
     peerDependencies:
       next: ^13.0.0 || ^14.0.0
