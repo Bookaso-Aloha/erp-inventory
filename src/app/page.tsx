@@ -1,4 +1,4 @@
-import { Button } from "erp-theme";
+import { Button } from "@eintrek/erp-theme";
 import Image from "next/image";
 
 export default function Home() {
